@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&family=Sacramento&display=swap');
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    color: #385954;
+}
+/*cabeçalho*/
+.header{
+    align-items: center;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;    
+}
+nav{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;   
+}
+.nav_menu{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #385954;
+}
+.login-btn {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.login-btn:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.login-btn:active {
+	position:relative;
+	top:1px;
+}
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+.header-btn {
+    position: relative;    
+}
+/*final_cabeçalho*/
+/*main*/
+.retangulo_central{
+  
+    width: 650px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+h1{
+    
+    background-color: yellow;
+    text-align: center;
+    font-size: xx-large;
+}
+.aviso{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+
+p{
+   text-align: center 
+}
+.btn1{
+    display: block;
+    margin: 100px auto 15px;
+    width: 40%;
+    background-color: #FAF2D2;
+    color: black;
+    border: 0.5px solid black;
+}
+.btn2{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    background-color: #FAF2D2;
+    color: black;
+    border: 0.5px solid black;
+
+}
+
+/*final_main*/
+/*footer*/
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0px 8px 6px -6px #385954;
+    background-color: #FFEEAF;
+}
+.contact_footer{
+    margin-left: 200px;
+    text-align: center;
+}
+.midia_footer{
+    margin-right: 270px;
+    display: block;    
+}
+.list-rodape {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+}
+.h3_midia{
+    margin: 18px 0 0 18px;
+}
+.link_midia{
+    padding-left: 10px;
+    box-shadow: #385954;
+}
+.img-insta,.img-youtube {
+    width:20px;
+    display: inline;
+    margin: 10px;
+}
+.img-consulta{
+    width: 300px;
+}
+.copyright {
+   margin:0;
+    background-color:#FFEEAF ;
+    font-size: 0.75rem;
+}
+

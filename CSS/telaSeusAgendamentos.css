@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&family=Sacramento&display=swap');
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    color: #385954;
+}
+/*cabeçalho*/
+.header{
+    align-items: center;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;    
+}
+nav{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;   
+}
+.nav_menu{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #385954;
+}
+
+
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+
+/*final_cabeçalho*/
+/*main*/
+.retangulo_central{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px auto;
+  
+}
+h1{
+    text-align: center;
+}
+.agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+details{
+    margin: 10px;
+}
+details>p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.historicoAgendamento{
+    
+    width: 600px;
+    border-right: 2px solid black;
+}
+
+.form_agendamento{
+    width: 600px;
+    text-align: left;
+    
+}
+label, select{
+    margin-left: 25px;
+    margin-bottom: 5px;
+    display: block;
+    
+    
+}
+.checkbox_icon{
+    width: 50px;
+}
+.checkbox_form{
+    width: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+p{
+   width: 350px;
+   text-align: justify; 
+}
+.btn_confirmar{
+    display: block;
+    margin: 100px auto;
+    width: 60%;
+    background-color: #FAF2D2;
+    color: black;
+    border: 0.5px solid black;
+}
+/*final_main*/
+/*footer*/
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0px 8px 6px -6px #385954;
+    background-color: #FFEEAF;
+}
+.contact_footer{
+    margin-left: 200px;
+    text-align: center;
+}
+.midia_footer{
+    margin-right: 270px;
+    display: block;    
+}
+.list-rodape {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+}
+.h3_midia{
+    margin: 18px 0 0 18px;
+}
+.link_midia{
+    padding-left: 10px;
+    box-shadow: #385954;
+}
+.img-insta,.img-youtube {
+    width:20px;
+    display: inline;
+    margin: 10px;
+}
+.img-consulta{
+    width: 300px;
+}
+.copyright {
+   margin:0;
+   padding-left: 610px;
+    background-color:#FFEEAF ;
+    font-size: 0.75rem;
+}
+

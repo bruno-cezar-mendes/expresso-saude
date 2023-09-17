@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&family=Sacramento&display=swap');
+html{
+    scroll-behavior:smooth;
+}
+body {
+    background-color: #ffffff;
+    margin: 0;
+    color: #385954;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*cabeçalho*/
+.header{
+    align-items: center;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    height: 3rem;
+    width: 100%;    
+}
+
+nav{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;   
+}
+.nav_menu{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #385954;
+}
+.login-btn {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+
+}
+.login-btn:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.login-btn:active {
+	position:relative;
+	top:1px;
+}
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+.header-btn {
+    position: relative;    
+}
+/*cabeçalho*/
+.h1-agende {
+   font-size: 2rem;
+    width: 600px;
+    height: 80px; 
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+.btn_agendeAqui {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:30px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    width: 70%;
+}
+.btn_agendeAqui:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.btn_agendeAqui:active {
+	position:relative;
+	top:1px;
+}
+main{
+    padding-top: 6rem;
+}
+.manchete{
+    margin: 0 auto;
+    padding-top: 150px;
+}
+/*animation bloco*/
+.middle-container {
+    display: flex;
+    text-align: center;   
+}
+.galeria{
+    width:350px;
+    height: 500px;
+    position: relative;   
+}
+.doc1-img {
+    position: absolute;
+    opacity:0;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 300px;
+    height: 500px;    
+}
+@keyframes animacao{
+    25%{
+        opacity: 1;
+        transform:scale(1.1,1.1);
+    }
+    50%{
+        opacity: 0;
+    }
+}
+.doc1-img:nth-child(2){
+    animation-delay: 5s;    
+}
+/*animation bloco*/
+.section_2{
+    text-align: center;
+}
+.figuras_serviços{
+    display: flex;
+    justify-content: space-around;
+}
+.servicos{
+    width: 98%;
+    margin: 0 auto;
+}
+.paragrafo_home{
+    text-align: justify;
+}
+/*footer*/
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0px 8px 6px -6px #385954;
+    background-color: #FFEEAF;
+}
+.contact_footer{
+    margin-left: 200px;
+    text-align: center;
+}
+.midia_footer{
+    margin-right: 270px;
+    display: block;    
+}
+.list-rodape {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+}
+.h3_midia{
+    margin: 18px 0 0 18px;
+}
+.link_midia{
+    padding-left: 10px;
+    box-shadow: #385954;
+}
+.img-insta,.img-youtube {
+    width:20px;
+    display: inline;
+    margin: 10px;
+}
+.img-consulta{
+    width: 300px;
+}
+.copyright {
+   margin:0;
+   padding-left: 610px;
+    background-color:#FFEEAF ;
+    font-size: 0.75rem;
+}
+
