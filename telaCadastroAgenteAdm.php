@@ -4,28 +4,6 @@
     $conexao = new Banco();
     $resultado = $conexao->selectUnidadeSaude();
    
-    
-    
-    /*if (isset($_POST['email'])){
-
-    
-        $email = $_POST['email'];
-        $senha = $_POST['senha'];
-        
-        
-        
-        $result = $conexao->isUser($email, $senha);
-
-        if($result === FALSE){
-            $_SESSION['msg'] = "Dados incorretos! Tente novamente";
-            
-        }else{
-            //$_SESSION['nome'] = $nome;
-            //$_SESSION['id'] = $result;
-            //unset($_SESSION['msg']);
-            header('Location:../telaAgendamento.php');
-        }
-   */
 
 ?>
 <!DOCTYPE html>
